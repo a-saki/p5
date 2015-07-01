@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body {
+	height: 3300px;
+}
+.indicator {
+	position: fixed;
+	margin: 0;
+	right: 10px;
+	top:10px;
+	background: rgba(255,255,255,.8);
+}
+section {
+	height: 426px;
+	position: relative;
+}
+#section1 {
+	background: url(../img/img1.jpg) no-repeat;
+	-webkit-background-size: 620px 426px;
+	background-position: center 0;
+	background-size: 620px 426px;
+	margin-left: -150%;
+}
+#section2 {
+	background: url(../img/img2.jpg) no-repeat;
+	background-position: center 0;
+	-webkit-background-size: 620px 426px;
+	background-size: 620px 426px;
+	top:-150%;
+}
+#section3 {
+	background: url(../img/img3.jpg) no-repeat;
+	background-position: center 0;
+	-webkit-background-size: 0 0;
+}
+#section4 {
+	background: url(../img/img4.jpg) no-repeat;
+	background-position: center 0;
+	-webkit-background-size: 620px 426px;
+	background-size: 620px 426px;
+}
+#sectionAshColor {
+	background: #ab4d5c;
+	font-size: 50px;
+	color: #fff;
+}
+#sectionAshColor p {
+	position: relative;
+	text-align: center;
+	top:40%;
+	margin-left: 0;
+}
+#sectionRedColor {
+	background: #6bab75;
+}
